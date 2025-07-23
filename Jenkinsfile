@@ -4,7 +4,7 @@ pipeline{
         stage('git checkout'){
             steps{
                 checkout scm
-		sh 'touch task1'
+		bat 'touch task1'
             }
         }
     }
